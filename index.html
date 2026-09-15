@@ -20,12 +20,12 @@
     />
 
     <!-- Твої CSS стилі -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
 
   <body>
     <!-- HEADER (Шапка сайту) -->
-    <header class="page-header">
+    <header class="page-header" id="header">
       <div class="container header-container">
         <nav class="page-nav">
           <a class="logo" href="./index.html"
@@ -56,7 +56,7 @@
 
     <main>
       <!-- СЕКЦІЯ 1: Hero (Банер) -->
-      <section class="hero-section">
+      <section class="hero" id="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions<br />for Your Business</h1>
           <button class="hero-btn" type="button">Order Service</button>
@@ -64,10 +64,10 @@
       </section>
 
       <!-- СЕКЦІЯ 2: Features ( Переваги / Особливості ) -->
-      <section class="section">
+      <section class="section" id="features">
         <div class="container">
-          <!-- Прихований заголовок за вимогами ТЗ (sr-only) -->
-          <h2 class="visually-hidden">Features</h2>
+          <!-- Прихований заголовок за вимогами ТЗ (visually-hidden) -->
+          <h2 class="visually-hidden">Our Features</h2>
           <ul class="features-list">
             <li class="features-item">
               <h3 class="features-title">Strategy</h3>
@@ -102,7 +102,7 @@
       </section>
 
       <!-- СЕКЦІЯ 3: Team (Наша команда) -->
-      <section class="section team-section">
+      <section class="section" id="team">
         <div class="container">
           <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
@@ -159,7 +159,7 @@
       </section>
 
       <!-- СЕКЦІЯ 4: Portfolio (Портфоліо) -->
-      <section class="section">
+      <section class="section" id="portfolio">
         <div class="container">
           <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -241,7 +241,7 @@
     </main>
 
     <!-- FOOTER (Підвал) -->
-    <footer class="page-footer">
+    <footer class="page-footer" id="footer">
       <div class="container">
         <a class="logo logo-footer" href="./index.html"
           >Web<span class="logo-light">Studio</span></a
