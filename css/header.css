@@ -5,12 +5,12 @@
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
-.page-nav {
+.nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .logo {
